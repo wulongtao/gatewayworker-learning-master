@@ -22,7 +22,7 @@ require_once __DIR__ . '/../../Workerman/Autoloader.php';
 Autoloader::setRootPath(__DIR__);
 
 
-// bussinessWorker 进程
+// bussinessWorker 进程ww
 $worker = new BusinessWorker();
 // worker名称
 $worker->name = 'YourAppBusinessWorker';
